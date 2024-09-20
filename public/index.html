@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="./img/night_rain_weather_1464.ico">
+    <title>Climas Mundiais</title>
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="container">
+        <div class="form">
+            <h2>Veja o clima para hoje em...</h2>
+            <div class="input-container">
+                <input type="text" placeholder="Cidade" id="input-cidade">
+                <button id="pesquisar">
+                    <i class="fa-solid fa-magnifying-glass-location"></i>
+                </button>
+            </div>
+        </div>
+        <div class="dados-clima">
+            <h2>
+                <i class="fa-solid fa-city"></i>
+                <span id="cidade">Fortaleza</span>
+                <img src="https://flagsapi.com/BR/flat/64.png" alt="bandeira Pais" id="pais"> 
+            </h2>
+            <p id="temperatura"><span id="temp">38</span>°C</p>
+            <div id="condicoes-container">
+                <p id="condicoes">Nublado</p>
+                <img src="https://openweathermap.org/img/wn/10d.png" alt="Condições tempo" id="icone-tempo">
+            </div>
+            <div id="detalhesContainer">
+                <p id="umidade">
+                    <i class="fa-solid fa-droplet"></i>
+                    <span>55%</span>
+                </p>
+                <p id="velVentos">
+                    <i class="fa-solid fa-wind"></i>
+                    <span>3km/h</span>
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js" defer ></script> <!--carregar depois do HTML completo.-->
+</body>
+</html>

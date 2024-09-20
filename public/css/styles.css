@@ -1,0 +1,97 @@
+*{
+    font-family: "Playfair Display", sans-serif;
+}
+body{
+    background: linear-gradient(180deg, lightskyblue 0%, cyan 100%);
+    color:white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height:100vh;
+}
+.hide{
+    display: none;
+}
+.container{
+    border: 2px, solid, white;
+    background-color: midnightblue;
+    width:40%;
+    box-shadow:  rgba(0,0,0,0.24) 0px, 3px, 8px;
+    padding: 2rem;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.form h2{
+    font-size: 48px;
+    text-align: center;
+}
+.input-container{
+    display: flex;
+    justify-content: center;
+}
+.form input{
+    padding:.8rem;
+    box-sizing: border-box;
+    border: none;
+    width:60%;
+    margin-right: 4%;
+    border-radius: 5px;
+    font-size: 14pt;
+    font-weight: bolder;
+}
+
+#pesquisar{
+    font-size: 14pt;
+    border:none;
+    background-color: blue;
+    color:lightskyblue;
+    width:10%;
+    min-width: 50px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.dados-clima{
+    display:none;
+    text-align: center;
+    border-top: 1px solid white;
+    margin-top: 1.5rem;
+    padding-top: 1.5rem;
+    width:100%;
+}
+.dados-clima h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: .6rem;
+}
+.dados-clima h2>span{
+    margin-inline: 10px;
+}
+.dados-clima h2 i{
+    font-size: 2rem;
+}
+#pais{
+    height: 1.5rem;
+}
+.condicoes-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-block: 0.6rem;
+}
+#detalhesContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#umidade{
+    border-right: 1px solid white;
+    margin: 0.6rem;
+    padding: 0.6rem;
+}
