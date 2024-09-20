@@ -3,7 +3,7 @@ import express from 'express';
 import fetch from 'node-fetch';
 import dotenv from 'dotenv';
 
-dotenv.config();
+dotenv.config();//Repare que o arquivo .env foi ignorado pelo gitignore e agora será necessário que você use use sua própria chave privada para a API em https://home.openweathermap.org/ e obter acesso a API
 const app = express();
 const PORT = 3000;
 
